@@ -44,6 +44,20 @@
       "date": "2019-02-02T23:27:00.000Z",
       "time": "1:00",
       "attendees": []
+    },
+    {
+      "id": 8399561,
+      "category": "nature",
+      "organizer": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "title": "Walkin round outside",
+      "description": "not a hike!",
+      "location": "Boulder somewhere",
+      "date": "2020-07-22T21:23:00.000Z",
+      "time": "14:00",
+      "attendees": []
     }
   ]
 }

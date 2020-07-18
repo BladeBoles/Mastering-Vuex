@@ -2,12 +2,11 @@
   <div>
     <h1>Events Listing</h1>
     <EventCard v-for="event in events" :key="event.id" :event="event" />
-    <BaseIcon />
   </div>
 </template>
 
 <script>
-import EventCard from '../components/EventCard.vue'
+import EventCard from '@/components/EventCard.vue'
 import EventService from '@/services/EventService.js'
 export default {
   components: {
@@ -24,10 +23,8 @@ export default {
         this.events = response.data
       })
       .catch(error => {
-        console.log('Error: ' + error)
+        console.log('There was an error:', error.response)
       })
   }
 }
 </script>
-
-<style></style>
