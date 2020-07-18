@@ -1,4 +1,6 @@
-# real-world-vue
+# real-world-vue & mastering-vuex
+
+Will be using this for the vuex tutorial also so that I don't have to repeat the setup.  Might have a few issues here and there since slots didn't work and the weird feather SVG thing had problems
 
 ## Project setup
 ```
