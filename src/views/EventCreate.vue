@@ -79,9 +79,7 @@ export default {
           })
           this.event = this.createFreshEvent()
         })
-        .catch(() => {
-          console.log('There was a problem creating your event.')
-        })
+        .catch(() => {})
     }
   }
 }
